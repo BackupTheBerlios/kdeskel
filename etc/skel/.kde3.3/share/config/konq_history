@@ -2,5 +2,5 @@
 CompletionItems=unused
 
 [Location Bar]
-ComboContents=http://forums.gentoo.org,http://packages.gentoo.org/,http://gentoo.org,http://developers.berlios.de/kdeskel,http://developer.berlios.de/kdeskel
-ComboIconCache=http://forums.gentoo.org,www,http://packages.gentoo.org/,favicons/packages.gentoo.org,http://gentoo.org,www,http://developers.berlios.de/kdeskel,www,http://developer.berlios.de/kdeskel,favicons/developer.berlios.de
+ComboContents=http://forums.gentoo.org,http://forums.gentoo.org,http://packages.gentoo.org/,http://gentoo.org,http://developers.berlios.de/kdeskel,http://developer.berlios.de/kdeskel
+ComboIconCache=http://forums.gentoo.org,www,http://forums.gentoo.org,www,http://packages.gentoo.org/,favicons/packages.gentoo.org,http://gentoo.org,www,http://developers.berlios.de/kdeskel,www,http://developer.berlios.de/kdeskel,favicons/developer.berlios.de

@@ -1,0 +1,36 @@
+[Main Window Settings Toolbar bookmarkToolBar]
+IconText=IconTextRight
+Index=3
+
+[Main Window Settings Toolbar extraToolBar]
+IconText=IconOnly
+Index=0
+
+[Main Window Settings Toolbar locationToolBar]
+IconText=IconOnly
+Index=2
+
+[Main Window Settings Toolbar mainToolBar]
+Index=1
+
+[Main Window Settings Toolbar rellinksToolbar]
+Hidden=true
+Index=4
+Offset=-1
+
+[Profile]
+FullScreen=false
+Height=960
+Name=webbrowsing
+RootItem=Tabs0
+Tabs0_Children=ViewT0
+Tabs0_activeChildIndex=0
+ViewT0_LinkedView=false
+ViewT0_LockedLocation=false
+ViewT0_PassiveMode=false
+ViewT0_ServiceName=konq_aboutpage
+ViewT0_ServiceType=KonqAboutPage
+ViewT0_ToggleView=false
+ViewT0_URL=about:konqueror
+Width=1280
+XMLUIFile=konqueror.rc

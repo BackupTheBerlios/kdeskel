@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel/>
+<xbel>
+ <folder>
+  <title>Gentoo</title>
+  <bookmark icon="favicons/forums.gentoo.org" href="http://forums.gentoo.org/" >
+   <title>Gentoo Forums :: Index</title>
+  </bookmark>
+ </folder>
+</xbel>

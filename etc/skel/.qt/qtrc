@@ -1,33 +1,34 @@
 [3.3]
-libraryPath=/home/demo/.kde/lib/kde3/plugins/:/usr/kde/3.3/lib/kde3/plugins/:/usr/lib/kde3/plugins/
+libraryPath=/home/user1/.kde/lib/kde3/plugins/:/usr/kde/3.3/lib/kde3/plugins/:/usr/lib/kde3/plugins/
 
 [BAB]
+decoQueried=true
 styleQueried=true
 
 [General]
-GUIEffects=none^e
-font=helvetica,12,-1,0,50,0,0,0,0,0
-style=keramik
+GUIEffects=general^eanimatecombo^efadetooltip^e
+font=Arial,12,-1,5,50,0,0,0,0,0
+style=comix
 useXft=true
 
 [KDE]
-contrast=7
-kdeAddedLibraryPaths=/home/demo/.kde/lib/kde3/plugins/^e/usr/kde/3.3/lib/kde3/plugins/^e/usr/lib/kde3/plugins/^e
+contrast=3
+kdeAddedLibraryPaths=/home/user1/.kde/lib/kde3/plugins/^e/usr/kde/3.3/lib/kde3/plugins/^e/usr/lib/kde3/plugins/^e
 
 [KWinPalette]
-activeBackground=#eeeee6
-activeBlend=#d8d8d0
-activeForeground=#000000
-activeTitleBtnBg=#eeeee6
-frame=#eeeee6
-inactiveBackground=#eeeee6
-inactiveBlend=#d8d8d0
-inactiveForeground=#777773
-inactiveFrame=#eeeee6
-inactiveTitleBtnBg=#eeeee6
+activeBackground=#800000
+activeBlend=#000000
+activeForeground=#ffffff
+activeTitleBtnBg=#d6cdbb
+frame=#d6cdbb
+inactiveBackground=#000000
+inactiveBlend=#d6cdbb
+inactiveForeground=#d6d6d6
+inactiveFrame=#d6cdbb
+inactiveTitleBtnBg=#d6cdbb
 
 [Palette]
-active=#000000^e#eeeade^e#ffffff^e#fffffc^e#555552^e#c6c6bf^e#000000^e#ffffff^e#000000^e#ffffff^e#eeeee6^e#000000^e#ffdd76^e#000000^e#0000c0^e#800080^e
-disabled=#808080^e#eeeade^e#ffffff^e#fffffc^e#555552^e#c6c6bf^e#c6c6bf^e#ffffff^e#808080^e#ffffff^e#eeeee6^e#000000^e#d4b862^e#ffffff^e#0000c0^e#800080^e
-inactive=#000000^e#eeeade^e#ffffff^e#fffffc^e#555552^e#c6c6bf^e#000000^e#ffffff^e#000000^e#ffffff^e#eeeee6^e#000000^e#ffdd76^e#000000^e#0000c0^e#800080^e
+active=#000000^e#d6cdbb^e#ffffff^e#ffffff^e#7f7a73^e#d4ccbf^e#000000^e#ffffff^e#000000^e#ffffff^e#fff6e6^e#000000^e#800000^e#ffffff^e#0000c0^e#800080^e
+disabled=#808080^e#d6cdbb^e#ffffff^e#ffffff^e#7f7a73^e#d4ccbf^e#d4ccbf^e#ffffff^e#808080^e#ffffff^e#fff6e6^e#000000^e#6a0000^e#ffffff^e#0000c0^e#800080^e
+inactive=#000000^e#d6cdbb^e#ffffff^e#ffffff^e#7f7a73^e#d4ccbf^e#000000^e#ffffff^e#000000^e#ffffff^e#fff6e6^e#000000^e#800000^e#ffffff^e#0000c0^e#800080^e
 

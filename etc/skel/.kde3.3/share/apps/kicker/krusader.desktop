@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment=Twin-Panel File Manager
+Comment[en_US]=Twin-Panel File Manager
+Exec=krusader -caption "%c" %i %m
+GenericName=File Manager
+GenericName[en_US]=File Manager
+Icon=krusader_red
+MimeType=
+Name=Krusader
+Name[en_US]=Krusader
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

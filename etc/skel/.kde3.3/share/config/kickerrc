@@ -4,13 +4,13 @@ update_info=kickerrc.upd:kde_3_1_sizeChanges
 [Applet_1]
 ConfigFile=minipager_panelapplet_h49zxxjzcesbqpf6213j_rc
 DesktopFile=minipagerapplet.desktop
-FreeSpace=0
+FreeSpace=0.015748
 WidthForHeightHint=71
 
 [Applet_2]
 ConfigFile=taskbar_panelappletrc
 DesktopFile=taskbarapplet.desktop
-FreeSpace=0.0144357
+FreeSpace=0.015748
 WidthForHeightHint=211
 
 [Applet_3]
@@ -107,7 +107,7 @@ DetailedMenuEntries=true
 Extensions=
 MaxEntries2=30
 NumVisibleEntries=5
-RecentAppsStat=46 1098894782 /usr/kde/3.3/share/applications/kde/KControl.desktop,5 1098697496 /usr/kde/3.3/share/applications/kde/kmenuedit.desktop,3 1098225620 /usr/share/applications/mozilla-bin.desktop,2 1098179577 /usr/kde/3.3/share/applications/kde/konsole.desktop,1 1098269137 Applications/krusader.desktop,1 1098269066 /usr/kde/3.3/share/applications/kde/kappfinder.desktop,1 1098176353 /usr/kde/3.3/share/applications/kde/kopete.desktop,1 1098226348 /usr/kde/3.3/share/applications/kde/Kfind.desktop
+RecentAppsStat=49 1098901501 /usr/kde/3.3/share/applications/kde/KControl.desktop,5 1098697496 /usr/kde/3.3/share/applications/kde/kmenuedit.desktop,3 1098225620 /usr/share/applications/mozilla-bin.desktop,2 1098179577 /usr/kde/3.3/share/applications/kde/konsole.desktop,1 1098269137 Applications/krusader.desktop,1 1098226348 /usr/kde/3.3/share/applications/kde/Kfind.desktop,1 1098176353 /usr/kde/3.3/share/applications/kde/kopete.desktop,1 1098269066 /usr/kde/3.3/share/applications/kde/kappfinder.desktop
 RecentVsOften=false
 ShowHiddenFiles=false
 UseBookmarks=true
