@@ -2,15 +2,17 @@ Karamba Themes - in the Q-Biqual Way Of Life
 
 Licence: GPL
 Autor: hds@users.berlios.de
-Last Updated: 20050220 - 16:20
+Last Updated: 20050222 - 19:00
 Optimized for 1600x1200
 
 
 Credits:
 
-Wallpaper  - http://www.kde-look.org/content/show.php?content=19961
-Statistics - http://www.kde-look.org/content/show.php?content=9453
-Kalendar   - http://www.kde-look.org/content/show.php?content=20546
+Wallpaper      - http://www.kde-look.org/content/show.php?content=19961
+Statistics     - http://www.kde-look.org/content/show.php?content=9453
+Kalendar       - http://www.kde-look.org/content/show.php?content=20546
+Liquid Weather - http://www.kde-look.org/content/show.php?content=6384
+Clock          - http://www.kde-look.org/content/show.php?content=20147
 
 Requirements:
 Superkaramba 0.35
@@ -18,6 +20,13 @@ Font ArialBD (Corefonts)
 lm_sensors
 
 Applets:
-memcpu.theme   - CPU / Temp / Fan / Memory
-disk.theme     - 4 hdd, eth0 In/Out
-kalendar.theme - Monthly Calendar with simple OnClick Functions
+memcpu theme   - CPU / Temp / Fan / Memory
+disk theme     - 4 hdd, eth0 In/Out
+kalendar theme - Monthly Calendar with simple OnClick Functions
+clock theme    - Nice analog Clock
+
+Warnings:
+
+My Liquid Weather Background Images will override the Crystal ones by Skeezo (*17.png)
+You will have to Download Liquid Weather 1st, if you havent done so already.
+See Link above in the Credits Section.
