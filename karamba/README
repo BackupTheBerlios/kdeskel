@@ -1,1 +1,21 @@
-Karamba Themes in the Q-Biqual Way Of Life
+Karamba Themes - in the Q-Biqual Way Of Life
+
+Licence: GPL
+Autor: hds@users.berlios.de
+Last Updated: 20050220 - 16:20
+Optimized for 1600x1200
+
+
+Credits:
+
+Wallpaper  - http://www.kde-look.org/content/show.php?content=19961
+Statistics - http://www.kde-look.org/content/show.php?content=9453
+
+Requirements:
+Superkaramba 0.35
+Font ArialBD (Corefonts)
+lm_sensors
+
+Applets:
+memcpu.theme - CPU / Temp / Fan / Memory
+disk.theme   - 4 hdd, eth0 In/Out
