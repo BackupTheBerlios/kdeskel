@@ -19,6 +19,10 @@ DisabledValue=1
 DoublePixels=false
 Size=32
 
+[DirSelect Dialog]
+DirSelectDialog Size=466,450
+History Items=file:/usr/bin
+
 [General]
 XftHintStyle=hintmedium
 XftSubPixel=
@@ -155,6 +159,23 @@ InsertTearOffHandle=0
 ShowIconsOnPushButtons=false
 colorScheme=
 contrast=3
+
+[KFileDialog Settings]
+Automatically select filename extension=true
+Height 1200=294
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Recent URLs=$HOME/.kde/icons/,/usr/bin/
+Separate Directories=false
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort case insensitively=true
+Sort directories first=true
+Sort reversed=false
+View Style=Simple
+Width 1600=778
 
 [Paths]
 Trash=$HOME/Desktop/Trash/
