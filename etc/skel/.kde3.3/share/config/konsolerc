@@ -1,2 +1,24 @@
 [$Version]
 update_info=konsole.upd:kde2.2/r1,konsole.upd:kde3.0/r1
+
+[Desktop Entry]
+ActiveSession=0
+DefaultSession=shell.desktop
+DynamicTabHide=false
+Fullscreen=false
+Height 1200=790
+TabViewMode=0
+Width 1600=1158
+bellmode=0
+class=konsole-mainwindow#1
+defaultfont=fixed,12,-1,2,50,0,0,0,1,0
+font=5
+history=1000
+historyenabled=true
+keytab=default
+schema=Transparent_darkbg.schema
+scrollbar=2
+tabbar=2
+
+[TipOfDay]
+TipLastShown=2004,10,27,18,22,17

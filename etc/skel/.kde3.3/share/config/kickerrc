@@ -4,13 +4,13 @@ update_info=kickerrc.upd:kde_3_1_sizeChanges
 [Applet_1]
 ConfigFile=minipager_panelapplet_h49zxxjzcesbqpf6213j_rc
 DesktopFile=minipagerapplet.desktop
-FreeSpace=0.0704441
+FreeSpace=0
 WidthForHeightHint=71
 
 [Applet_2]
 ConfigFile=taskbar_panelappletrc
 DesktopFile=taskbarapplet.desktop
-FreeSpace=0.0704441
+FreeSpace=0.0144357
 WidthForHeightHint=211
 
 [Applet_3]
@@ -23,7 +23,7 @@ WidthForHeightHint=63
 ConfigFile=clock_panelapplet_mzgo2wa109mfdtfaqwh2_rc
 DesktopFile=clockapplet.desktop
 FreeSpace=1
-WidthForHeightHint=78
+WidthForHeightHint=89
 
 [DesktopButton_1]
 FreeSpace=0
@@ -34,12 +34,12 @@ FreeSpace=0
 
 [General]
 Alignment=1
-Applets=KMenuButton_1,DesktopButton_1,ServiceButton_2,ExtensionButton_1,Applet_1,Applet_2,Applet_3,Applet_4
+Applets=KMenuButton_1,DesktopButton_1,ServiceButton_2,ExtensionButton_1,ServiceButton_1,Applet_1,Applet_2,Applet_3,Applet_4
 AutoHideDelay=3
 AutoHidePanel=false
 AutoHideSwitch=false
 BackgroundHide=false
-BackgroundTheme=$HOME/.kde/share/apps/kstyle/themes/mydesign/wallpapers/panel/default.png
+BackgroundTheme=
 ColorizeBackground=false
 CustomSize=0
 ExpandSize=true
@@ -67,6 +67,11 @@ UseSidePixmap=true
 
 [KMenuButton_1]
 FreeSpace=0
+
+[ServiceButton_1]
+DesktopFile=Applications/krusader.desktop
+FreeSpace=0
+StorageId=:krusader.desktop
 
 [ServiceButton_2]
 DesktopFile=/usr/kde/3.3/share/applications/kde/konqbrowser.desktop
@@ -102,7 +107,7 @@ DetailedMenuEntries=true
 Extensions=
 MaxEntries2=30
 NumVisibleEntries=5
-RecentAppsStat=43 1098706381 /usr/kde/3.3/share/applications/kde/KControl.desktop,5 1098697496 /usr/kde/3.3/share/applications/kde/kmenuedit.desktop,3 1098225620 /usr/share/applications/mozilla-bin.desktop,2 1098179577 /usr/kde/3.3/share/applications/kde/konsole.desktop,1 1098269137 Applications/krusader.desktop,1 1098226348 /usr/kde/3.3/share/applications/kde/Kfind.desktop,1 1098176353 /usr/kde/3.3/share/applications/kde/kopete.desktop,1 1098269066 /usr/kde/3.3/share/applications/kde/kappfinder.desktop
+RecentAppsStat=46 1098894782 /usr/kde/3.3/share/applications/kde/KControl.desktop,5 1098697496 /usr/kde/3.3/share/applications/kde/kmenuedit.desktop,3 1098225620 /usr/share/applications/mozilla-bin.desktop,2 1098179577 /usr/kde/3.3/share/applications/kde/konsole.desktop,1 1098269137 Applications/krusader.desktop,1 1098269066 /usr/kde/3.3/share/applications/kde/kappfinder.desktop,1 1098176353 /usr/kde/3.3/share/applications/kde/kopete.desktop,1 1098226348 /usr/kde/3.3/share/applications/kde/Kfind.desktop
 RecentVsOften=false
 ShowHiddenFiles=false
 UseBookmarks=true

@@ -1,0 +1,11 @@
+[IconPosition::Home.desktop]
+X=15
+X 1600=15
+Y=109
+Y 1200=109
+
+[IconPosition::Trash]
+X=17
+X 1600=17
+Y=13
+Y 1200=13

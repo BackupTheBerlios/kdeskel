@@ -1,3 +1,12 @@
+[Date]
+Font=Arial,9,-1,5,75,0,0,0,0,0
+Foreground_Color=255,244,223
+
+[Digital]
+Foreground_Color=255,244,223
+Shadow_Color=0,0,0
+Show_Date=true
+
 [General]
 Initial_TZ=0
-RemoteZones=America/Los_Angeles,America/New_York,Australia/Sydney,Asia/Tokyo,Europe/Berlin,Europe/London,Europe/Moscow
+RemoteZones=America/Los_Angeles,America/New_York,Asia/Tokyo,Australia/Sydney,Europe/Berlin,Europe/London,Europe/Moscow

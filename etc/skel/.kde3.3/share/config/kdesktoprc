@@ -17,6 +17,9 @@ Wallpaper=$HOME/.kde/wallpaper/1600x1200.png
 WallpaperList=
 WallpaperMode=Scaled
 
+[FMSettings]
+StandardFont=Arial,10,-1,5,75,0,0,0,0,0
+
 [General]
 AutoLineUpIcons=false
 

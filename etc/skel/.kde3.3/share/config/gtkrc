@@ -1,4 +1,4 @@
-# created by KDE, Wed Oct 27 17:35:47 2004
+# created by KDE, Wed Oct 27 18:37:00 2004
 #
 # If you do not want KDE to override your GTK settings, select
 # Appearance & Themes -> Colors in the Control Center and disable the checkbox
@@ -7,27 +7,27 @@
 #
 style "default"
 {
-  bg[NORMAL] = { 0.839, 0.804, 0.733 }
+  bg[NORMAL] = { 1.000, 0.965, 0.902 }
   bg[SELECTED] = { 0.502, 0.000, 0.000 }
-  bg[INSENSITIVE] = { 0.839, 0.804, 0.733 }
-  bg[ACTIVE] = { 0.698, 0.671, 0.612 }
-  bg[PRELIGHT] = { 0.839, 0.804, 0.733 }
+  bg[INSENSITIVE] = { 1.000, 0.965, 0.902 }
+  bg[ACTIVE] = { 0.831, 0.800, 0.749 }
+  bg[PRELIGHT] = { 1.000, 0.965, 0.902 }
 
   base[NORMAL] = { 1.000, 1.000, 1.000 }
   base[SELECTED] = { 0.502, 0.000, 0.000 }
-  base[INSENSITIVE] = { 0.839, 0.804, 0.733 }
+  base[INSENSITIVE] = { 1.000, 0.965, 0.902 }
   base[ACTIVE] = { 0.502, 0.000, 0.000 }
   base[PRELIGHT] = { 0.502, 0.000, 0.000 }
 
   text[NORMAL] = { 0.000, 0.000, 0.000 }
   text[SELECTED] = { 1.000, 1.000, 1.000 }
-  text[INSENSITIVE] = { 0.698, 0.671, 0.612 }
+  text[INSENSITIVE] = { 0.831, 0.800, 0.749 }
   text[ACTIVE] = { 1.000, 1.000, 1.000 }
   text[PRELIGHT] = { 1.000, 1.000, 1.000 }
 
   fg[NORMAL] = { 0.000, 0.000, 0.000 }
   fg[SELECTED] = { 1.000, 1.000, 1.000 }
-  fg[INSENSITIVE] = { 0.698, 0.671, 0.612 }
+  fg[INSENSITIVE] = { 0.831, 0.800, 0.749 }
   fg[ACTIVE] = { 0.000, 0.000, 0.000 }
   fg[PRELIGHT] = { 0.000, 0.000, 0.000 }
 }

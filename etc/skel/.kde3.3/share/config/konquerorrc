@@ -1,8 +1,69 @@
 [$Version]
 update_info=kfmclient_3_2.upd:kfmclient_3_2
 
+[FMSettings]
+AlwaysNewWin=false
+AlwaysTabbedMode=false
+HomeURL=http://developer.berlios.de/forum/forum.php?forum_id=7596
+KonquerorTabforExternalURL=false
+MMBOpensTab=true
+NewTabsInFront=true
+OpenAfterCurrentPage=false
+PermanentCloseButton=false
+PopupsWithinTabs=false
+RenameIconDirectly=false
+ShowDeleteCommand=true
+ShowFileTips=true
+ShowPreviewsInFileTips=true
+TabCloseActivatePrevious=false
+
+[HTML Settings]
+AutoDelayedActions=true
+AutoLoadImages=true
+AutomaticDetectionLanguage=0
+ChangeCursor=true
+DefaultEncoding=
+Fonts=Arial,Courier [Adobe],Times,Helvetica,Helvetica,Helvetica,0
+FormCompletion=true
+HoverLinks=true
+MaxFormCompletionItems=10
+MediumFontSize=12
+MinimumFontSize=9
+ShowAnimations=Enabled
+UnderlineLinks=false
+
+[KonqMainWindow Toolbar bookmarkToolBar]
+IconText=IconTextRight
+Index=3
+
+[KonqMainWindow Toolbar extraToolBar]
+IconText=IconOnly
+Index=0
+
+[KonqMainWindow Toolbar locationToolBar]
+IconText=IconOnly
+Index=2
+
+[KonqMainWindow Toolbar mainToolBar]
+Index=1
+
+[KonqMainWindow Toolbar rellinksToolbar]
+Hidden=true
+Index=4
+Offset=-1
+
 [MainView Settings]
+BackRightClick=false
+OpenMiddleClick=true
 ToggableViewsShown=
 
 [SearchBar]
 Mode=1
+
+[Settings]
+SaveURLInProfile=true
+SaveWindowSizeInProfile=true
+
+[Trash]
+ConfirmDelete=true
+ConfirmTrash=true

@@ -1,0 +1,52 @@
+<!DOCTYPE ktheme>
+<ktheme version="1" >
+  <general/>
+  <desktop number="0" common="1" >
+    <mode id="VerticalGradient" />
+    <color1 rgb="#1e72a0" />
+    <color2 rgb="#c0c0c0" />
+    <blending mode="NoBlending" balance="100" reverse="0" />
+    <pattern name="" />
+    <wallpaper mode="Scaled" url="theme:/wallpapers/desktop/1600x1200.png" />
+  </desktop>
+  <screensaver name="" />
+  <icons name="" />
+  <sounds/>
+  <colors contrast="3" >
+    <background rgb="#d6cdbb" object="global" />
+    <selectBackground rgb="#800000" object="global" />
+    <foreground rgb="#000000" object="global" />
+    <windowForeground rgb="#000000" object="global" />
+    <windowBackground rgb="#ffffff" object="global" />
+    <selectForeground rgb="#ffffff" object="global" />
+    <buttonBackground rgb="#d6cdbb" object="global" />
+    <buttonForeground rgb="#000000" object="global" />
+    <linkColor rgb="#0000c0" object="global" />
+    <visitedLinkColor rgb="#800080" object="global" />
+    <alternateBackground rgb="#fff6e6" object="global" />
+    <activeForeground rgb="#ffffff" object="kwin" />
+    <inactiveBackground rgb="#000000" object="kwin" />
+    <inactiveBlend rgb="#d6cdbb" object="kwin" />
+    <activeBackground rgb="#800000" object="kwin" />
+    <activeBlend rgb="#000000" object="kwin" />
+    <inactiveForeground rgb="#d6d6d6" object="kwin" />
+    <activeTitleBtnBg rgb="#d6cdbb" object="kwin" />
+    <inactiveTitleBtnBg rgb="#d6cdbb" object="kwin" />
+    <frame rgb="#d6cdbb" object="kwin" />
+    <inactiveFrame rgb="#d6cdbb" object="kwin" />
+    <handle rgb="#d6cdbb" object="kwin" />
+    <inactiveHandle rgb="#d6cdbb" object="kwin" />
+  </colors>
+  <cursors name="" />
+  <wm type="builtin" name="" >
+    <border size="1" />
+  </wm>
+  <konqueror>
+    <wallpaper url="" />
+    <bgcolor rgb="#000000" />
+  </konqueror>
+  <panel>
+    <transparent value="0" />
+  </panel>
+  <widgets name="baghira" />
+</ktheme>

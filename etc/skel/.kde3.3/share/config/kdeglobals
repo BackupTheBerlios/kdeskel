@@ -21,14 +21,20 @@ Size=32
 
 [General]
 XftHintStyle=hintmedium
+XftSubPixel=
 alternateBackground=255,246,230
-background=214,205,187
+background=255,246,230
 buttonBackground=214,205,187
 buttonForeground=0,0,0
+fixed=courier,12,-1,5,50,0,0,0,0,0
+font=Arial,12,-1,5,50,0,0,0,0,0
 foreground=0,0,0
 linkColor=0,0,192
+menuFont=Arial,10,-1,5,75,0,0,0,0,0
 selectBackground=128,0,0
 selectForeground=255,255,255
+taskbarFont=Arial,11,-1,5,75,0,0,0,0,0
+toolBarFont=Arial,10,-1,5,75,0,0,0,0,0
 visitedLinkColor=128,0,128
 widgetStyle=comix
 windowBackground=255,255,255
@@ -147,7 +153,7 @@ EffectNoTooltip=false
 EffectsEnabled=true
 InsertTearOffHandle=0
 ShowIconsOnPushButtons=false
-colorScheme=DesertRed.kcsrc
+colorScheme=
 contrast=3
 
 [Paths]
@@ -161,6 +167,7 @@ TransparentMoving=true
 [WM]
 activeBackground=128,0,0
 activeBlend=0,0,0
+activeFont=Arial,10,-1,5,75,0,0,0,0,0
 activeForeground=255,255,255
 activeTitleBtnBg=214,205,187
 frame=214,205,187
