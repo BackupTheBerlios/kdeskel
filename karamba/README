@@ -10,6 +10,7 @@ Credits:
 
 Wallpaper  - http://www.kde-look.org/content/show.php?content=19961
 Statistics - http://www.kde-look.org/content/show.php?content=9453
+Kalendar   - http://www.kde-look.org/content/show.php?content=20546
 
 Requirements:
 Superkaramba 0.35
@@ -17,5 +18,6 @@ Font ArialBD (Corefonts)
 lm_sensors
 
 Applets:
-memcpu.theme - CPU / Temp / Fan / Memory
-disk.theme   - 4 hdd, eth0 In/Out
+memcpu.theme   - CPU / Temp / Fan / Memory
+disk.theme     - 4 hdd, eth0 In/Out
+kalendar.theme - Monthly Calendar with simple OnClick Functions
