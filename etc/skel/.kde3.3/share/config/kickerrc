@@ -2,42 +2,71 @@
 update_info=kickerrc.upd:kde_3_1_sizeChanges
 
 [Applet_1]
-ConfigFile=minipager_panelapplet_wbkgplvzawyb6fuzbgb0_rc
+ConfigFile=minipager_panelapplet_h49zxxjzcesbqpf6213j_rc
 DesktopFile=minipagerapplet.desktop
-FreeSpace=0
-WidthForHeightHint=64
+FreeSpace=0.0704441
+WidthForHeightHint=71
 
 [Applet_2]
 ConfigFile=taskbar_panelappletrc
 DesktopFile=taskbarapplet.desktop
-FreeSpace=0
-WidthForHeightHint=208
+FreeSpace=0.0704441
+WidthForHeightHint=211
 
 [Applet_3]
 ConfigFile=systemtray_panelappletrc
 DesktopFile=systemtrayapplet.desktop
 FreeSpace=1
-WidthForHeightHint=60
+WidthForHeightHint=63
 
 [Applet_4]
-ConfigFile=clock_panelapplet_v0dhmkjyrz5xkqbzjg6r_rc
+ConfigFile=clock_panelapplet_mzgo2wa109mfdtfaqwh2_rc
 DesktopFile=clockapplet.desktop
 FreeSpace=1
-WidthForHeightHint=75
+WidthForHeightHint=78
 
 [DesktopButton_1]
 FreeSpace=0
 
+[ExtensionButton_1]
+DesktopFile=konsolemenu.desktop
+FreeSpace=0
+
 [General]
-Applets=KMenuButton_1,DesktopButton_1,ServiceButton_1,ServiceButton_2,ServiceButton_3,ServiceButton_4,ServiceButton_5,Applet_1,Applet_2,Applet_3,Applet_4
+Alignment=1
+Applets=KMenuButton_1,DesktopButton_1,ServiceButton_2,ExtensionButton_1,Applet_1,Applet_2,Applet_3,Applet_4
+AutoHideDelay=3
+AutoHidePanel=false
+AutoHideSwitch=false
+BackgroundHide=false
+BackgroundTheme=$HOME/.kde/share/apps/kstyle/themes/mydesign/wallpapers/panel/default.png
+ColorizeBackground=false
+CustomSize=0
+ExpandSize=true
+FadeOutAppletHandles=false
+HideAnimation=true
+HideAnimationSpeed=80
+HideAppletHandles=false
+HideButtonSize=14
+Position=3
+ResizeableHandle=false
+ShowLeftHideButton=false
+ShowRightHideButton=true
+ShowToolTips=true
+Size=2
+SizePercentage=90
+TintColor=232,1,5
+TintValue=0
+Transparent=true
+UnhideLocation=6
+UseBackgroundTheme=true
+XineramaScreen=0
+
+[KMenu]
+UseSidePixmap=true
 
 [KMenuButton_1]
 FreeSpace=0
-
-[ServiceButton_1]
-DesktopFile=/usr/kde/3.3/share/applications/kde/Home.desktop
-FreeSpace=0
-StorageId=kde-Home.desktop
 
 [ServiceButton_2]
 DesktopFile=/usr/kde/3.3/share/applications/kde/konqbrowser.desktop
@@ -45,16 +74,36 @@ FreeSpace=0
 StorageId=kde-konqbrowser.desktop
 
 [ServiceButton_3]
-DesktopFile=/usr/kde/3.3/share/applications/kde/KMail.desktop
+DesktopFile=/usr/share/applications/mozilla-bin.desktop
 FreeSpace=0
-StorageId=kde-KMail.desktop
+StorageId=:mozilla-bin.desktop
 
 [ServiceButton_4]
-DesktopFile=Office/kword.desktop
+DesktopFile=Applications/krusader.desktop
 FreeSpace=0
-StorageId=kde-kword.desktop
+StorageId=:krusader.desktop
 
-[ServiceButton_5]
-DesktopFile=/usr/kde/3.3/share/applications/kde/Help.desktop
-FreeSpace=0
-StorageId=kde-Help.desktop
+[button_tiles]
+EnableBrowserTiles=false
+EnableDesktopButtonTiles=false
+EnableKMenuTiles=false
+EnableURLTiles=false
+EnableWindowListTiles=false
+KMenuTile=red_wood
+KMenuTileColor=invalid
+
+[buttons]
+EnableIconZoom=false
+EnableTileBackground=false
+
+[menus]
+DetailedEntriesNamesFirst=false
+DetailedMenuEntries=true
+Extensions=
+MaxEntries2=30
+NumVisibleEntries=5
+RecentAppsStat=43 1098706381 /usr/kde/3.3/share/applications/kde/KControl.desktop,5 1098697496 /usr/kde/3.3/share/applications/kde/kmenuedit.desktop,3 1098225620 /usr/share/applications/mozilla-bin.desktop,2 1098179577 /usr/kde/3.3/share/applications/kde/konsole.desktop,1 1098269137 Applications/krusader.desktop,1 1098226348 /usr/kde/3.3/share/applications/kde/Kfind.desktop,1 1098176353 /usr/kde/3.3/share/applications/kde/kopete.desktop,1 1098269066 /usr/kde/3.3/share/applications/kde/kappfinder.desktop
+RecentVsOften=false
+ShowHiddenFiles=false
+UseBookmarks=true
+UseBrowser=true

@@ -2,25 +2,25 @@
 ConfigFile=minipager_panelapplet_gnu8xapsky5bngv0x54r_rc
 DesktopFile=minipagerapplet.desktop
 FreeSpace=0
-WidthForHeightHint=64
+WidthForHeightHint=67
 
 [Applet_2]
 ConfigFile=taskbar_panelappletrc
 DesktopFile=taskbarapplet.desktop
 FreeSpace=0
-WidthForHeightHint=208
+WidthForHeightHint=211
 
 [Applet_3]
 ConfigFile=systemtray_panelappletrc
 DesktopFile=systemtrayapplet.desktop
 FreeSpace=1
-WidthForHeightHint=8
+WidthForHeightHint=11
 
 [Applet_4]
 ConfigFile=clock_panelapplet_izy5vlrg6lxm6rtezi6j_rc
 DesktopFile=clockapplet.desktop
 FreeSpace=1
-WidthForHeightHint=75
+WidthForHeightHint=78
 
 [DesktopButton_1]
 FreeSpace=0

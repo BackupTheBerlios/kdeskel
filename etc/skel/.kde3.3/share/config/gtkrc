@@ -1,4 +1,4 @@
-# created by KDE, Wed Oct 27 13:14:50 2004
+# created by KDE, Wed Oct 27 17:35:47 2004
 #
 # If you do not want KDE to override your GTK settings, select
 # Appearance & Themes -> Colors in the Control Center and disable the checkbox
@@ -7,27 +7,27 @@
 #
 style "default"
 {
-  bg[NORMAL] = { 0.933, 0.933, 0.902 }
-  bg[SELECTED] = { 1.000, 0.867, 0.463 }
-  bg[INSENSITIVE] = { 0.933, 0.933, 0.902 }
-  bg[ACTIVE] = { 0.776, 0.776, 0.749 }
-  bg[PRELIGHT] = { 0.933, 0.933, 0.902 }
+  bg[NORMAL] = { 0.839, 0.804, 0.733 }
+  bg[SELECTED] = { 0.502, 0.000, 0.000 }
+  bg[INSENSITIVE] = { 0.839, 0.804, 0.733 }
+  bg[ACTIVE] = { 0.698, 0.671, 0.612 }
+  bg[PRELIGHT] = { 0.839, 0.804, 0.733 }
 
   base[NORMAL] = { 1.000, 1.000, 1.000 }
-  base[SELECTED] = { 1.000, 0.867, 0.463 }
-  base[INSENSITIVE] = { 0.933, 0.933, 0.902 }
-  base[ACTIVE] = { 1.000, 0.867, 0.463 }
-  base[PRELIGHT] = { 1.000, 0.867, 0.463 }
+  base[SELECTED] = { 0.502, 0.000, 0.000 }
+  base[INSENSITIVE] = { 0.839, 0.804, 0.733 }
+  base[ACTIVE] = { 0.502, 0.000, 0.000 }
+  base[PRELIGHT] = { 0.502, 0.000, 0.000 }
 
   text[NORMAL] = { 0.000, 0.000, 0.000 }
-  text[SELECTED] = { 0.000, 0.000, 0.000 }
-  text[INSENSITIVE] = { 0.776, 0.776, 0.749 }
-  text[ACTIVE] = { 0.000, 0.000, 0.000 }
-  text[PRELIGHT] = { 0.000, 0.000, 0.000 }
+  text[SELECTED] = { 1.000, 1.000, 1.000 }
+  text[INSENSITIVE] = { 0.698, 0.671, 0.612 }
+  text[ACTIVE] = { 1.000, 1.000, 1.000 }
+  text[PRELIGHT] = { 1.000, 1.000, 1.000 }
 
   fg[NORMAL] = { 0.000, 0.000, 0.000 }
-  fg[SELECTED] = { 0.000, 0.000, 0.000 }
-  fg[INSENSITIVE] = { 0.776, 0.776, 0.749 }
+  fg[SELECTED] = { 1.000, 1.000, 1.000 }
+  fg[INSENSITIVE] = { 0.698, 0.671, 0.612 }
   fg[ACTIVE] = { 0.000, 0.000, 0.000 }
   fg[PRELIGHT] = { 0.000, 0.000, 0.000 }
 }
@@ -46,7 +46,7 @@ widget "gtk-tooltips" style "ToolTip"
 
 style "MenuItem"
 {
-  bg[PRELIGHT] = { 1.000, 0.867, 0.463 }
+  bg[PRELIGHT] = { 0.502, 0.000, 0.000 }
 }
 
 class "*MenuItem" style "MenuItem"

@@ -15,5 +15,13 @@ Name_3=
 Name_4=
 Number=4
 
+[Style]
+BorderSize=1
+ButtonsOnLeft=MS
+ButtonsOnRight=HIAX
+CustomButtonPositions=false
+PluginLib=kwin3_baghira
+ShowToolTips=true
+
 [Windows]
 IgnoreFocusStealingClasses=kded,kio_uiserver,kget

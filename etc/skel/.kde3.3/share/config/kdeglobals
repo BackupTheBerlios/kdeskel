@@ -19,6 +19,21 @@ DisabledValue=1
 DoublePixels=false
 Size=32
 
+[General]
+XftHintStyle=hintmedium
+alternateBackground=255,246,230
+background=214,205,187
+buttonBackground=214,205,187
+buttonForeground=0,0,0
+foreground=0,0,0
+linkColor=0,0,192
+selectBackground=128,0,0
+selectForeground=255,255,255
+visitedLinkColor=128,0,128
+widgetStyle=comix
+windowBackground=255,255,255
+windowForeground=0,0,0
+
 [Global Shortcuts]
 Activate Window Demanding Attention=default(Alt+Ctrl+A)
 Defaults timestamp=Oct 18 200420:53:48
@@ -122,5 +137,37 @@ Window to Desktop 9=none
 Window to Next Desktop=none
 Window to Previous Desktop=none
 
+[KDE]
+EffectAnimateCombo=true
+EffectAnimateMenu=false
+EffectAnimateTooltip=false
+EffectFadeMenu=false
+EffectFadeTooltip=true
+EffectNoTooltip=false
+EffectsEnabled=true
+InsertTearOffHandle=0
+ShowIconsOnPushButtons=false
+colorScheme=DesertRed.kcsrc
+contrast=3
+
 [Paths]
 Trash=$HOME/Desktop/Trash/
+
+[Toolbar style]
+Highlighting=true
+IconText=IconOnly
+TransparentMoving=true
+
+[WM]
+activeBackground=128,0,0
+activeBlend=0,0,0
+activeForeground=255,255,255
+activeTitleBtnBg=214,205,187
+frame=214,205,187
+handle=214,205,187
+inactiveBackground=0,0,0
+inactiveBlend=214,205,187
+inactiveForeground=214,214,214
+inactiveFrame=214,205,187
+inactiveHandle=214,205,187
+inactiveTitleBtnBg=214,205,187
