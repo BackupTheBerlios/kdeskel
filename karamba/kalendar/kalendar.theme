@@ -1,0 +1,6 @@
+karamba x=561 y=285 w=236 h=190 interval=20000 locked=true
+image x=0 y=0	path="images/background.png"
+
+clickarea x=0 y=0 w=100 h=50 onclick=korganizer
+
+clickarea x=150 y=0 w=50 h=50 onclick="konqueror http://www.timeanddate.com/calendar/"
