@@ -1,0 +1,43 @@
+#Written by Chip2003 
+#Published under GPL on www.kde-look.org
+#This is part of TDE - T Desktop Enhancements
+#Modified anno 2005 by hds@users.berlios.de
+
+# general
+KARAMBA  X=800 Y=98 W=230 H=185 interval=3000 locked=true
+image x=0 y=0	path="image/background.png"
+defaultfont font="Arialbd" fontsize=16 color=255,255,255 align="right"
+
+<GROUP> x=58 y=25
+# CPU
+image x=-35 y=0 path="image/tile.png"
+image x=6 y=9 path="image/grid.png"
+image x=-28 y=10 path="image/cpu.png"
+
+# bar x=6 y=10 w=90 h=10 vertical=false path="image/bar_p.png" sensor=cpu
+graph x=6 y=11 w=90 h=20 color=0,0,99 sensor=cpu
+text x=146 y=21 sensor=cpu format="%v %" al"
+</GROUP>
+
+
+<GROUP> x=23 y=70
+# CPU Temp and Fan
+image x=0 y=0 path="image/tile.png"
+image x=6 y=11 path="image/cpu.png"
+image x=45 y=11 path="image/fan_s.png"
+image x=112 y=9 path="image/thermometer_k.png"
+
+text x=178 y=15 sensor=sensor type="CPUTemp" format="%v °"
+text x=110 y=15 sensor=sensor type="CPUFan" format="%v"
+</GROUP>
+
+<GROUP> x=4 y=70
+# Used Memory
+image x=19 y=45 path="image/tile.png"
+image x=60 y=53 path="image/grid.png"
+image x=31 y=57 path="image/mem.png"
+
+#bar x=60 y=54 w=90 h=10 vertical=false path="image/bar_p.png" sensor=memory
+graph x=60 y=54 w=90 h=20 color=0,0,99 sensor=memory
+text x=195 y=50 sensor=memory format="%um"
+</GROUP>
