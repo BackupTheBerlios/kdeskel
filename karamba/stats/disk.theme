@@ -1,0 +1,49 @@
+#Written by Chip2003 
+#Published under GPL on www.kde-look.org
+#This is part of TDE - T Desktop Enhancements
+#Modified anno 2005 by hds@users.berlios.de
+
+# general
+KARAMBA  X=800 Y=98 W=230 H=185 interval=10000 locked=true
+image x=0 y=0	path="image/background.png"
+defaultfont font="arialbd" fontsize=16 color=255,255,255 align="right"
+
+<GROUP> x=58 y=25
+# hdb2, hdb5
+image x=-35 y=0 path="image/tile.png"
+image x=6 y=9 path="image/grid.png"
+image x=-28 y=10 path="image/hdd.png"
+
+
+bar x=2 y=10 w=90 h=10 vertical=false path="image/bar.png" sensor=disk mountpoint="/"  format="%fp"
+bar x=2 y=22 w=90 h=10 vertical=false path="image/bar.png" sensor=disk format="%fp" mountpoint="/mnt/daten" 
+text x=146 y=5 sensor=disk mountpoint="/" format="b2 %fp"
+text x=146 y=21 sensor=disk mountpoint="/mnt/daten" format="b5 %fp"
+</GROUP>
+
+
+<GROUP> x=23 y=70
+# server disks
+image x=0 y=0 path="image/tile.png"
+image x=6 y=11 path="image/hdd.png"
+image x=38 y=10 path="image/grid.png"
+
+bar x=38 y=10 w=90 h=10 vertical=false path="image/bar.png" sensor=disk mountpoint="/mnt/srv/data" format="%fp"
+bar x=38 y=22 w=90 h=10 vertical=false path="image/bar.png" sensor=disk mountpoint="/mnt/srv/backup" format="%fp"
+text x=178 y=5 sensor=disk mountpoint="/mnt/srv/data" format="sd %fp"
+text x=178 y=21 sensor=disk mountpoint="/mnt/srv/backup" format="sb %fp"
+</GROUP>
+
+<GROUP> x=4 y=70
+# eth0
+image x=19 y=45 path="image/tile.png"
+image x=60 y=53 path="image/grid.png"
+image x=31 y=57 path="image/net.png"
+# In
+bar x=60 y=55 w=90 h=10 vertical=false path="image/bar.png" sensor=network device="eth0" format="%in" max=7000 interval=150
+text x=192 y=51 sensor=network device="eth0" format="%in"
+
+# Out
+bar x=60 y=67 w=90 h=10 vertical=false path="image/bar.png" sensor=network format="%out"device="eth0"  max=7000 interval=250
+text x=192 y=66 sensor=network device="eth0" format="%out" interval=150
+</GROUP>
